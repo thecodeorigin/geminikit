@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Gemini Kit Pro Features - Commercial License",
   "main": "dist/index.js",
+  "private": true,
   "scripts": {
     "build": "tsc"
   },

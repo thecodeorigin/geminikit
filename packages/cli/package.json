@@ -1,6 +1,6 @@
 {
   "name": "@thecodeorigin/geminikit-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gemini CLI Wrapper",
   "main": "dist/index.js",
   "private": false,

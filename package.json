@@ -3,12 +3,8 @@
   "version": "0.0.5",
   "description": "Gemini CLI Workspace Kit",
   "private": false,
-  "scripts": {
-    "postinstall": "node scripts/postinstall.js"
-  },
   "files": [
-    ".gemini",
-    "scripts"
+    ".gemini"
   ],
   "workspaces": [
     ".gemini/**",

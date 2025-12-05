@@ -21,7 +21,7 @@ A comprehensive Gemini CLI workspace kit configured as a Bun monorepo. This pack
     *   **Research**: Deep research and report generation.
 *   **Bun Monorepo**: optimized for speed and modern JavaScript development.
 *   **TypeScript**: Full type safety across all scripts and tools.
-*   **Postinstall Setup**: Automatically configures the `.gemini` environment in your project root upon installation.
+*   **GeminiKit CLI (`gk`)**: Dedicated CLI to manage the environment and logs.
 
 ## Installation
 
@@ -33,13 +33,38 @@ bun add geminikit
 npm install geminikit
 ```
 
-The `postinstall` script will automatically copy the `.gemini` configuration folder to your project root.
+After installation, run the setup command to configure the `.gemini` environment:
+
+```bash
+npx gk setup
+```
+
+## GeminiKit CLI (`gk`)
+
+The package includes a dedicated CLI tool `gk` for managing the GeminiKit environment.
+
+```bash
+# Setup the environment (install Bun, Gemini CLI, and configure .gemini)
+npx gk setup
+
+# Check the health of the installation
+npx gk doctor
+
+# View and manage telemetry logs
+npx gk log
+
+# Show version information
+npx gk --version
+
+# Show help
+npx gk --help
+```
 
 ## Usage
 
-### CLI Commands
+### Gemini CLI Skills
 
-Once installed, you can use the Gemini CLI with the provided skills. Ensure you have the Gemini CLI tool installed and configured.
+Once installed and setup, you can use the Gemini CLI with the provided skills.
 
 ```bash
 # Start a planning session

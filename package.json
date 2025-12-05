@@ -10,7 +10,8 @@
     "scripts/postinstall.js"
   ],
   "workspaces": [
-    ".gemini/**"
+    ".gemini/**",
+    "packages/*"
   ],
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
@@ -23,6 +24,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@thecodeorigin/geminikit-cli": "workspace:*",
     "@types/debug": "^4.1.12",
     "@types/mime-types": "^2.1.4",
     "@types/node": "^22.0.0",

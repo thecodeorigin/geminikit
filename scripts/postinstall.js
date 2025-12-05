@@ -11,6 +11,16 @@ const sourceDir = path.join(__dirname, '../.gemini');
 const destRoot = process.env.INIT_CWD || path.resolve(__dirname, '../../../'); 
 const destDir = path.join(destRoot, '.gemini');
 
+// Ensure node_modules/.gemini/telemetry exists
+const telemetryDir = path.join(destRoot, 'node_modules', '.gemini', 'telemetry');
+if (!fs.existsSync(telemetryDir)) {
+  try {
+    fs.mkdirSync(telemetryDir, { recursive: true });
+  } catch (err) {
+    console.warn('[geminikit] Warning: Skip creating telemetry directory:', err.message);
+  }
+}
+
 console.log(`[geminikit] Linking configuration from ${sourceDir} to ${destDir}...`);
 
 if (!fs.existsSync(sourceDir)) {

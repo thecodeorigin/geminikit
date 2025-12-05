@@ -1,0 +1,17 @@
+# Aesthetic Directions
+
+## Choose One Bold Aesthetic Direction (commit 100%)
+
+| Style Category              | Core Keywords (copy-paste ready)                                      | Color Palette Ideas                                      | Signature Effects & Details                                                                      |
+|-----------------------------|----------------------------------------------------------------------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| Minimalism & Swiss Style    | clean, swiss, grid-based, generous whitespace, typography-first     | Monochrome + one bold accent, beige/gray neutrals        | Razor-sharp hierarchy, subtle hover lifts, micro-animations, perfect alignment                   |
+| Neumorphism                 | soft ui, embossed, concave/convex, subtle depth, monochromatic      | Single pastel + light/dark variations                    | Multi-layer soft shadows, press/release animations, no hard borders                             |
+| Glassmorphism               | frosted glass, translucent, vibrant backdrop, blur, layered         | Aurora/sunset backgrounds + semi-transparent whites      | backdrop-filter: blur(), glowing borders, light reflections, floating layers                    |
+| Brutalism                   | raw, unpolished, asymmetric, high contrast, intentionally ugly      | Harsh primaries, black/white, occasional neon            | Sharp corners, huge bold text, exposed grid, "broken" aesthetic                                  |
+| Claymorphism                | clay, chunky 3D, toy-like, bubbly, double shadows, pastel           | Candy pastels, soft gradients                            | Inner + outer shadows, squishy press effects, oversized rounded elements                         |
+| Aurora / Mesh Gradient      | aurora, northern lights, mesh gradient, luminous, flowing           | Teal → purple → pink smooth blends                       | Animated/static CSS or SVG mesh gradients, subtle color breathing, layered translucency         |
+| Retro-Futurism / Cyberpunk  | vaporwave, 80s sci-fi, crt scanlines, neon glow, glitch, chrome     | Neon cyan/magenta on deep black, chrome accents          | Scanlines, chromatic aberration, glitch transitions, long glowing shadows                       |
+| 3D Hyperrealism             | realistic textures, skeuomorphic, metallic, WebGL, tactile           | Rich metallics, deep gradients                           | Three.js / CSS 3D, physics-based motion, realistic lighting & reflections                        |
+| Vibrant Block / Maximalist  | bold blocks, duotone, high contrast, geometric, energetic           | Complementary/triadic brights, neon on dark             | Large colorful sections, scroll-snap, dramatic hover scales, animated patterns                  |
+| Dark OLED Luxury            | deep black, oled-optimized, subtle glow, premium, cinematic         | #000000 + vibrant accents (emerald, amber, electric blue)| Minimal glows, velvet textures, cinematic entrances, reduced-motion support                     |
+| Organic / Biomorphic        | fluid shapes, blobs, curved, nature-inspired, hand-drawn            | Earthy or muted pastels                                  | SVG morphing, gooey effects, irregular borders, gentle spring animations                        |

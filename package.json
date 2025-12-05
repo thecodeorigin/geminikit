@@ -1,6 +1,6 @@
 {
   "name": "geminikit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gemini CLI Workspace Kit",
   "scripts": {
     "postinstall": "node scripts/postinstall.js"
@@ -39,6 +39,14 @@
     "kit",
     "monorepo"
   ],
-  "author": "Nguyen Huu Nguyen Y <imrim12@users.noreply.github.com>",
-  "license": "ISC"
+  "author": "THECODEORIGIN CO.,LTD",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecodeorigin/geminikit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thecodeorigin/geminikit/issues"
+  },
+  "homepage": "https://github.com/thecodeorigin/geminikit#readme"
 }

@@ -1,0 +1,20 @@
+{
+  "name": "@thecodeorigin/geminikit-pro",
+  "version": "0.0.1",
+  "description": "Gemini Kit Pro Features - Commercial License",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "THECODEORIGIN CO.,LTD",
+  "license": "Proprietary",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecodeorigin/geminikit.git",
+    "directory": "packages/pro"
+  },
+  "bugs": {
+    "url": "https://github.com/thecodeorigin/geminikit/issues"
+  },
+  "homepage": "https://github.com/thecodeorigin/geminikit#readme"
+}

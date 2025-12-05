@@ -19,5 +19,16 @@
     "@types/node": "^22.0.0",
     "@types/yargs": "^17.0.32",
     "@types/debug": "^4.1.12"
-  }
+  },
+  "author": "THECODEORIGIN CO.,LTD",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecodeorigin/geminikit.git",
+    "directory": "packages/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/thecodeorigin/geminikit/issues"
+  },
+  "homepage": "https://github.com/thecodeorigin/geminikit#readme"
 }

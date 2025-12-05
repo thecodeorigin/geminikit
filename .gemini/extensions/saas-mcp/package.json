@@ -3,5 +3,12 @@
   "version": "1.0.0",
   "type": "module",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "author": "THECODEORIGIN CO.,LTD",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecodeorigin/geminikit.git",
+    "directory": ".gemini/extensions/saas-mcp"
+  }
 }

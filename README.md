@@ -1,4 +1,11 @@
-# @thecodeorigin/geminikit
+<div align="center">
+  <p>Sponsored by <a href="https://developers.google.com/program">Google Developer Program</a></p>
+  <p>Made with ❤️ by member of <a href="https://gdg.community.dev/gdg-cloud-da-nang/">GDG Cloud Da Nang</a></p>
+</div>
+
+---
+
+# `geminikit`
 
 A comprehensive Gemini CLI workspace kit configured as a Bun monorepo. This package provides a pre-configured environment with advanced AI skills and tools, ready to be dropped into any project.
 
@@ -72,3 +79,9 @@ To contribute or modify this kit:
 ## License
 
 ISC
+
+---
+
+<div align="center">
+  <p>Inspired by <a href="https://github.com/claudekit">claudekit.cc</a> and <a href="https://github.com/github/spec-kit">spec-kit</a></p>
+</div>

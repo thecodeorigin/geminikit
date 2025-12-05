@@ -10,5 +10,12 @@
   "devDependencies": {},
   "engines": {
     "node": ">=18.0.0"
+  },
+  "author": "THECODEORIGIN CO.,LTD",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecodeorigin/geminikit.git",
+    "directory": ".gemini/skills/chrome-devtools/scripts"
   }
 }

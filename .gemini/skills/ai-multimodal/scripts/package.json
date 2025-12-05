@@ -8,5 +8,12 @@
     "optimize": "bun optimize.ts"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "author": "THECODEORIGIN CO.,LTD",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecodeorigin/geminikit.git",
+    "directory": ".gemini/skills/ai-multimodal/scripts"
+  }
 }

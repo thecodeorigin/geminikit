@@ -40,5 +40,5 @@ tsconfig.tsbuildinfo
 # Gemini Specific
 .gemini/tmp
 
-# Packages
-./packages
+# Source code
+./src

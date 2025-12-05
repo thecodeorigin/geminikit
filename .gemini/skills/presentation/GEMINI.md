@@ -1,6 +1,6 @@
 ---
 name: presentation
-description: Create professional, developer-friendly presentations using Slidev. Converts Markdown to beautiful HTML slides with theming capabilities. Includes strict protocols for planning, research, narrative pacing (Click-and-Tell), and mandatory verification.
+description: Create professional, developer-friendly presentations using Slidev. Converts Markdown to beautiful slides with theming capabilities. Includes strict protocols for planning, research, narrative pacing (Click-and-Tell), and mandatory verification.
 ---
 
 # Presentation Skill (Slidev)
@@ -48,7 +48,28 @@ Create and manage Slidev presentations. This skill enforces a rigorous "Think-Pl
     -   **Split Slides**: Create a sequence of 4-5 rapid slides for these sentences (One word/phrase per slide) to control the speaker's pacing and impact.
     -   *Example*: Slide A: "WE" -> Slide B: "MUST" -> Slide C: "ACT" -> Slide D: "NOW!!!" (Big Typography).
 
-### 4. Implementation (Slidev)
+### 4. Syntactic Awareness (Slidev Native)
+**Stop writing HTML soup. Leverage the platform.**
+1.  **Markdown First**:
+    -   Use standard Markdown headers (`#`, `##`) for titles.
+    -   Use Markdown lists (`-`, `1.`) for bullets.
+    -   Use `---` strictly for slide separation.
+2.  **MDC Syntax (Markdown Components)**:
+    -   **PREFER** MDC syntax (`::Component{prop="val"} Content ::`) over HTML tags (`<Component prop="val">Content</Component>`) for block components.
+    -   **PREFER** Inline MDC (`:Component[Label]{prop="val"}`) over inline HTML.
+    -   **USE** Attribute syntax (`{.class}`) for styling standard elements (e.g., `# Title {.text-center}`).
+3.  **Layouts Over Divs**:
+    -   **NEVER** manually create column grids with `<div>` unless strictly necessary for a custom component.
+    -   **ALWAYS** use native layouts defined in Frontmatter: `layout: two-cols`, `layout: image-right`, `layout: cover`.
+    -   **Slot Syntax**: Use `::left::` and `::right::` slot separators for column layouts.
+4.  **Component Integration**:
+    -   Use Vue components inside Markdown for interactivity: `<v-click>`, `<v-clicks>`, `<Tweet id="..." />`.
+    -   Use Icons via Iconify components: `<carbon-logo-github />` instead of SVG tags.
+5.  **Customization**:
+    -   **Frontmatter Styling**: Use the `class` key in frontmatter for slide-wide styling (e.g., `class: text-center bg-black text-white`).
+    -   **Scoped Styles**: Use `<style>` blocks inside the Markdown file for slide-specific overrides.
+
+### 5. Implementation (Slidev)
 1.  **Scaffold**: 
     -   If interactive: `bun create slidev <project-name>`.
     -   If autonomous: Manually create the **Flat Structure** (see below).
@@ -56,7 +77,7 @@ Create and manage Slidev presentations. This skill enforces a rigorous "Think-Pl
         ```
         <project-name>/
         ├── slides.md           # Main entry
-        ├── package.json        # @slidev/cli, @slidev/theme-default, vue
+        ├── package.json        # Dependencies
         ├── uno.config.ts       # UnoCSS Config (Critical for theming)
         ├── style.css           # Global styles
         ├── components/         # Custom Vue components
@@ -67,7 +88,7 @@ Create and manage Slidev presentations. This skill enforces a rigorous "Think-Pl
     -   Define fonts as **strings** (e.g., `fontFamily: { sans: '"Roboto", sans-serif' }`).
 3.  **Install**: `bun install` immediately.
 
-### 5. Verification (MANDATORY)
+### 6. Verification (MANDATORY)
 **Runtime errors are lazy. Build to prove correctness.**
 1.  **Execute**: `bun run build`.
 2.  **Analyze**: If it fails (fonts, missing modules), FIX IT and RETRY.

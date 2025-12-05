@@ -1,6 +1,7 @@
 #!/usr/bin/env bun
 import { runGemini } from './gemini';
 import { handleLogCommand } from './log';
+import { runDoctor } from './doctor';
 import { execSync } from 'child_process';
 import { readFileSync } from 'fs';
 import { join } from 'path';
@@ -27,6 +28,8 @@ if (args.includes('--version') || args.includes('-v')) {
   }
 } else if (args[0] === 'log') {
   handleLogCommand(args.slice(1));
+} else if (args[0] === 'doctor') {
+  runDoctor();
 } else {
   runGemini(args);
 }

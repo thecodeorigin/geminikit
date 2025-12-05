@@ -1,6 +1,6 @@
 {
   "name": "geminikit",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Gemini CLI Workspace Kit",
   "private": false,
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "files": [
     ".gemini",
-    "scripts/postinstall.js"
+    "scripts"
   ],
   "workspaces": [
     ".gemini/**",

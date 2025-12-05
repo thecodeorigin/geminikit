@@ -51,10 +51,10 @@ export function runDoctor() {
   console.log('Gemini Kit Doctor 🩺\n');
 
   const checks = [
-    { name: 'Gemini Kit Version', check: checkGeminiKitVersion },
-    { name: 'Bun Installation', check: checkBun },
-    { name: 'Gemini CLI Installation', check: checkGeminiCLI },
-    { name: 'Gemini Configuration (.gemini)', check: checkGeminiConfig },
+    { name: 'Gemini Kit Installed', check: checkGeminiKitVersion },
+    { name: 'Bun Installed', check: checkBun },
+    { name: 'Gemini CLI Installed', check: checkGeminiCLI },
+    { name: 'Gemini Configured (.gemini)', check: checkGeminiConfig },
   ];
 
   let allPassed = true;

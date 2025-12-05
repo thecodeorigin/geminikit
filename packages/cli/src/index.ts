@@ -1,4 +1,4 @@
-#!/usr/bin/env bun
+#!/usr/bin/env node
 import { runGemini } from './gemini';
 import { handleLogCommand } from './log';
 import { runDoctor } from './doctor';

@@ -8,23 +8,7 @@
       "save_memory"
     ]
   },
-  "mcpServers": {
-    "saas-ops": {
-      "command": "bun",
-      "args": [
-        "run",
-        ".gemini/extensions/saas-mcp/index.ts"
-      ]
-    },
-    "sqlite": {
-      "command": "bunx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-sqlite",
-        "saas.db"
-      ]
-    }
-  },
+  "mcpServers": {},
   "ui": {
     "theme": "dark"
   },
